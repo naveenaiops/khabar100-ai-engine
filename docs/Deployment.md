@@ -22,9 +22,9 @@ graph LR
     SupabaseDB["Supabase Postgres (PgBouncer Pooler)"]:::database
 
     %% Connections
-    User <-->|HTTPS Requests| VercelEdge
+    User -->|HTTPS Requests| VercelEdge
     VercelCron -->|Daily Trigger GET /api/cron/generate| VercelEdge
-    VercelEdge <-->|Session / Transaction Queries (Port 6543)| SupabaseDB
+    VercelEdge -->|Session / Transaction Queries (Port 6543)| SupabaseDB
 ```
 
 ---

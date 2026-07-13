@@ -58,12 +58,12 @@ graph TD
     end
 
     %% Relationships
-    Browser <-->|HTTPS / JSON| APIGateway
-    Browser <-->|Session Sync| AuthSync
-    AuthSync <-->|Verify JWT Cookies| SupabaseAuth
+    Browser -->|HTTPS / JSON| APIGateway
+    Browser -->|Session Sync| AuthSync
+    AuthSync -->|Verify JWT Cookies| SupabaseAuth
     
-    APIGateway <-->|Standard Queries| RLS
-    RLS <--> Postgres
+    APIGateway -->|Standard Queries| RLS
+    RLS --> Postgres
     
     VercelCron -->|HTTPS POST + Secret Token| RAGPipeline
     RAGPipeline -->|1. Scrape Daily Current Events| NewsSources
@@ -77,7 +77,7 @@ graph TD
     RazorpayGateway -->|HTTPS Webhook (Payment Captured)| PaymentAPI
     PaymentAPI -->|Update User subscription_status| Postgres
     
-    CheckoutModal <-->|Checkout Complete| RazorpayGateway
+    CheckoutModal -->|Checkout Complete| RazorpayGateway
 ```
 
 ---

@@ -31,9 +31,9 @@ The platform utilizes a modern serverless-first architecture optimized for perfo
 
 ```mermaid
 graph TD
-    User["Student Web Browser"] <-->|React UI / Tailwind| NextJS["Next.js Serverless Backend (Vercel)"]
-    NextJS <-->|@supabase/ssr Session Sync| SupabaseAuth["Supabase Auth Service"]
-    NextJS <-->|PgBouncer Connection Pooling| SupabaseDB["Supabase PostgreSQL (pgvector)"]
+    User["Student Web Browser"] -->|React UI / Tailwind| NextJS["Next.js Serverless Backend (Vercel)"]
+    NextJS -->|@supabase/ssr Session Sync| SupabaseAuth["Supabase Auth Service"]
+    NextJS -->|PgBouncer Connection Pooling| SupabaseDB["Supabase PostgreSQL (pgvector)"]
     Cron["Vercel Cron Service"] -->|Daily Ingestion Trigger| NextJS
     NextJS -->|AI Synthesis Gateway| OpenRouter["OpenRouter & Gemini Models"]
 ```

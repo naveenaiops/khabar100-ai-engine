@@ -23,8 +23,8 @@ graph LR
 
     %% Connections
     User -->|HTTPS Requests| VercelEdge
-    VercelCron -->|Daily Trigger GET /api/cron/generate| VercelEdge
-    VercelEdge -->|Session / Transaction Queries (Port 6543)| SupabaseDB
+    VercelCron -->|Daily Trigger GET api-cron-generate| VercelEdge
+    VercelEdge -->|Session and Transaction Queries Port 6543| SupabaseDB
 ```
 
 ---

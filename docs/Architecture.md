@@ -58,23 +58,23 @@ graph TD
     end
 
     %% Relationships
-    Browser -->|HTTPS / JSON| APIGateway
+    Browser -->|HTTPS and JSON| APIGateway
     Browser -->|Session Sync| AuthSync
     AuthSync -->|Verify JWT Cookies| SupabaseAuth
     
     APIGateway -->|Standard Queries| RLS
     RLS --> Postgres
     
-    VercelCron -->|HTTPS POST + Secret Token| RAGPipeline
+    VercelCron -->|HTTPS POST with Secret Token| RAGPipeline
     RAGPipeline -->|1. Scrape Daily Current Events| NewsSources
     RAGPipeline -->|2. Query External Facts| SerperAPI
     RAGPipeline -->|3. Calculate Text Embeddings| GeminiAPI
     RAGPipeline -->|4. Structural MCQs Synthesis| OpenRouter
-    RAGPipeline -->|5. Insert & Check Duplicates| PGVector
+    RAGPipeline -->|5. Insert and Check Duplicates| PGVector
     
     Browser -->|Initiate Checkout| PaymentAPI
     PaymentAPI -->|Create Order Signature| RazorpayGateway
-    RazorpayGateway -->|HTTPS Webhook (Payment Captured)| PaymentAPI
+    RazorpayGateway -->|HTTPS Webhook Payment Captured| PaymentAPI
     PaymentAPI -->|Update User subscription_status| Postgres
     
     CheckoutModal -->|Checkout Complete| RazorpayGateway

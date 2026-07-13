@@ -1,0 +1,62 @@
+{
+  "entity": "event",
+  "account_id": "acc_8eEda1023sFd98",
+  "event": "order.paid",
+  "contains": [
+    "payment",
+    "order"
+  ],
+  "payload": {
+    "payment": {
+      "entity": {
+        "id": "pay_O77ad8162Fsda0",
+        "entity": "payment",
+        "amount": 4900,
+        "currency": "INR",
+        "status": "captured",
+        "order_id": "order_mock_7fda21as9",
+        "invoice_id": null,
+        "international": false,
+        "method": "upi",
+        "amount_refunded": 0,
+        "refund_status": null,
+        "captured": true,
+        "description": "Khabar100 Monthly Practice Subscription",
+        "card_id": null,
+        "bank": null,
+        "wallet": null,
+        "vpa": "aspirant@okhdfcbank",
+        "email": "student@upscaspirant.com",
+        "contact": "+919876543210",
+        "notes": {
+          "userId": "d7184ac0-1a74-4b55-a0c5-e5f86b16df89",
+          "userEmail": "student@upscaspirant.com"
+        },
+        "fee": 98,
+        "tax": 18,
+        "error_code": null,
+        "error_description": null,
+        "created_at": 1783938450
+      }
+    },
+    "order": {
+      "entity": {
+        "id": "order_mock_7fda21as9",
+        "entity": "order",
+        "amount": 4900,
+        "amount_paid": 4900,
+        "amount_due": 0,
+        "currency": "INR",
+        "receipt": "receipt_sub_d7184ac0_1783938422",
+        "status": "paid",
+        "attempts": 1,
+        "notes": {
+          "userId": "d7184ac0-1a74-4b55-a0c5-e5f86b16df89",
+          "userEmail": "student@upscaspirant.com"
+        },
+        "created_at": 1783938422
+      }
+    }
+  },
+  "created_at": 1783938455
+}

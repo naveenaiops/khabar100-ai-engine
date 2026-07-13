@@ -1,0 +1,30 @@
+[
+  {
+    "id": "e30cb780-1a74-4b55-a0c5-e5f86b16d123",
+    "exam_category_id": "4b684cb0-1a74-4867-b50a-f88fb695dcd0",
+    "question_text": "With reference to the Parliament of India, consider the following statements:\n1. A private member's bill is a bill presented by a Member of Parliament who is not elected but only nominated by the President of India.\n2. Recently, a private member's bill has been passed in the Parliament of India for the first time in its history.",
+    "options": {
+      "A": "1 only",
+      "B": "2 only",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_option": "D",
+    "explanation": "Statement 1 is incorrect: A private member's bill is a bill introduced by any Member of Parliament who is not a Minister, regardless of whether they are elected or nominated. Statement 2 is incorrect: Several private member's bills have been passed in the history of Indian Parliament (14 bills total), though none have been passed since 1970.",
+    "year": 2017
+  },
+  {
+    "id": "f51da250-b851-40ef-bc61-f3b17c80d456",
+    "exam_category_id": "4b684cb0-1a74-4867-b50a-f88fb695dcd0",
+    "question_text": "Consider the following statements regarding the 'Indian Wildlife (Protection) Act, 1972':\n1. Wildlife is a subject under the Concurrent List of the Constitution of India.\n2. Scheduled animals under Schedule I of the Act are accorded the highest level of legal protection.\n3. The National Board for Wildlife is chaired by the Minister of Environment, Forest and Climate Change.",
+    "options": {
+      "A": "1 and 2 only",
+      "B": "2 and 3 only",
+      "C": "1 and 3 only",
+      "D": "1, 2 and 3"
+    },
+    "correct_option": "A",
+    "explanation": "Statement 1 is correct: By the 42nd Amendment Act of 1976, 'Protection of wild animals and birds' was moved from the State List to the Concurrent List. Statement 2 is correct: Schedule I animals (like Bengal Tigers and Asian Elephants) are granted the highest legal protection with severe penalties for violations. Statement 3 is incorrect: The National Board for Wildlife (NBWL) is chaired by the Prime Minister of India, not the Union Environment Minister.",
+    "year": 2020
+  }
+]

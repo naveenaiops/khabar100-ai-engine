@@ -1,0 +1,40 @@
+{
+  "blueprint_name": "UPSC CSE GS1 Master Blueprint Archetype",
+  "version": "1.0.0",
+  "statement_formulation_rules": {
+    "dynamic_static_hybridization": "A premium UPSC question must blend dynamic current affairs (e.g., a recent treaty, amendment, report, or scientific discovery) with static conceptual foundations (e.g., constitutional articles, legal acts, historical origins, statutory authorities). Statement 1 must highlight the current event; Statement 2 and 3 must track the underlying governance structure or statutory parent acts.",
+    "conceptual_depth": "Statements must test core conceptual understanding (e.g., conditions, exceptions, and institutional powers) rather than simple rote facts. Avoid superficial statements."
+  },
+  "trap_and_distractor_mechanics": {
+    "absolute_qualifiers": "Use qualifiers like 'all', 'only', 'none', 'every', 'always' with extreme care. Usually, these absolute terms denote incorrect statements (traps) unless backed by a specific constitutional mandate.",
+    "ministry_and_agency_swaps": "Regularly craft distractors by swapping the parent Ministry (e.g., replacing Ministry of Finance with NITI Aayog, or Ministry of Environment with Ministry of Earth Sciences) or swapping the regulatory statutory body.",
+    "data_and_year_mutations": "Incorporate subtle numerical changes, e.g., swapping a funding ratio of 60:40 to 50:50, or swapping target years of national goals to test factual precision.",
+    "exceptions_as_rules": "Frame legal exceptions as absolute rules, or vice versa, to test the candidate's deep analytical accuracy."
+  },
+  "syntactical_variety_archetypes": [
+    {
+      "archetype_id": 1,
+      "name": "Multi-Statement Conceptual Tracking",
+      "opening_template": "With reference to [Topic], consider the following statements...",
+      "structure": "Consists of 2-3 logical statements. Standard choice combinations: A. 1 only, B. 2 only, C. Both 1 and 2, D. Neither 1 nor 2 (or 1 and 2 only, etc.)."
+    },
+    {
+      "archetype_id": 2,
+      "name": "Institutional/Statutory Matrix Mapping",
+      "opening_template": "Consider the following statements regarding [Body/Scheme/Act/Organization]...",
+      "structure": "Statements check the administrative authority, funding pattern (Central Sector vs. Centrally Sponsored Scheme), governing board chairmanship, or jurisdictional limits."
+    },
+    {
+      "archetype_id": 3,
+      "name": "Applied/Contextual Reasoning",
+      "opening_template": "The term '[Term]' is frequently mentioned in the news in the context of...",
+      "structure": "A direct, high-cognition conceptual definition question. Options are deep, long, and logically sound descriptions testing scientific phenomena, geopolitical developments, or economic trends."
+    },
+    {
+      "archetype_id": 4,
+      "name": "Categorical/Syllabus Pairing Matrix",
+      "opening_template": "Consider the following pairs: [Items vs. Context/Sectors/State/Country]",
+      "structure": "Lists 3 distinct pairs, followed by: 'How many of the pairs given above are correctly matched? A. Only one pair, B. Only two pairs, C. All three pairs, D. None of the pairs'."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "fact_decomposed_input": {
+    "topic_title": "Biological Diversity Amendment Bill 2023",
+    "question_type": "multi_statement",
+    "fact_context": "The Parliament recently enacted the Biological Diversity (Amendment) Act 2023. The amendment simplifies compliance burdens on local practitioners and AYUSH manufacturers regarding accessing biological resources. It exempts registered AYUSH practitioners and cultivated medicinal plant growers from giving prior intimation to State Biodiversity Boards. However, foreign companies and research entities still require approval from the National Biodiversity Authority (NBA). The NBA remains a statutory body established in Chennai under the Biological Diversity Act, 2002, operating under the Ministry of Environment, Forest and Climate Change.",
+    "subject_tag": "Environment",
+    "has_statutory_hook": true,
+    "has_conceptual_hook": true
+  },
+  "synthesized_upsc_mcq": {
+    "question": "With reference to the Biological Diversity (Amendment) Act, 2023, consider the following statements:\n1. Registered AYUSH practitioners are exempted from giving prior intimation to State Biodiversity Boards to access biological resources for local practices.\n2. Foreign-controlled companies and research institutions still require explicit approval from the National Biodiversity Authority (NBA).\n3. The National Biodiversity Authority is a statutory body headquartered in New Delhi.",
+    "options": {
+      "A": "Only one statement is correct",
+      "B": "Only two statements are correct",
+      "C": "All three statements are correct",
+      "D": "None of the statements are correct"
+    },
+    "correct_option": "B",
+    "explanation": "Statement 1 is correct: The Biological Diversity (Amendment) Act, 2023 exempts registered AYUSH practitioners, codifiers, and cultivated medicinal plants growers from providing prior intimation to State Biodiversity Boards for accessing biological resources for research and bio-utilization. Statement 2 is correct: Entities with foreign shareholding, foreign research institutes, and foreign nationals still require prior written permission from the National Biodiversity Authority (NBA) to access biological resources. Statement 3 is incorrect: While the NBA is indeed a statutory body under the Ministry of Environment, Forest and Climate Change, it is headquartered in Chennai, Tamil Nadu, not New Delhi."
+  }
+}

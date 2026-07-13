@@ -1,0 +1,23 @@
+[
+  {
+    "id": "7f80db20-7f28-48b8-b118-868f0cb1a111",
+    "exam_category_id": "4b684cb0-1a74-4867-b50a-f88fb695dcd0",
+    "subject": "Polity",
+    "topic": "Constitutional and Statutory Bodies",
+    "sub_topic": "Inter-State Council, Finance Commission, National Biodiversity Authority"
+  },
+  {
+    "id": "9f1ab820-21a8-4868-b3d2-430c0eb1a222",
+    "exam_category_id": "4b684cb0-1a74-4867-b50a-f88fb695dcd0",
+    "subject": "Environment",
+    "topic": "Environmental Legislation and Wildlife Conservation",
+    "sub_topic": "Wildlife Protection Act, Biodiversity Conservation, National Parks"
+  },
+  {
+    "id": "2b3cd450-48b5-48cd-96bd-fa3a0eb1a333",
+    "exam_category_id": "4b684cb0-1a74-4867-b50a-f88fb695dcd0",
+    "subject": "Economy",
+    "topic": "Monetary Policy & Financial Systems",
+    "sub_topic": "RBI Guidelines, Repo Rate, Banking Reforms, Inflation Management"
+  }
+]
